@@ -22,6 +22,7 @@ jobs:
           # in this example it will generate:
           # - results-dir/results.json
           output_path: myResults/
+          ignore_on_exit: results
 
       - name: Show results
         run: |
