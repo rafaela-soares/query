@@ -16,7 +16,7 @@ jobs:
       - name: Run KICS Scan
         uses: Checkmarx/kics-github-action@v1.4
         with:
-          path: '/'
+          path: './'
           # when provided with a directory on output_path
           # it will generate the specified reports file named 'results.{extension}'
           # in this example it will generate:
