@@ -10,15 +10,20 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-      - name: Run Checkmarx KICS Scan
+      - name: Mkdir myResults
+        # make sure results dir is created
+        run: mkdir -p myResults
+      - name: Run KICS Scan
         uses: checkmarx/kics-action@v1.3
         with:
-          path: ./
-          platform_type: ansible
-          fail_on: medium,high
-          output_formats: sarif
-          disable_full_descriptions: false
-          disable_secrets: false
-          enable_comments: true
-          verbose: true
-          output_path: ./
+          path: './'
+          # when provided with a directory on output_path
+          # it will generate the specified reports file named 'results.{extension}'
+          # in this example it will generate:
+          # - results-dir/results.json
+          output_path: myResults/
+         ignore_on_exit: results
+
+      - name: Show results
+        run: |
+          cat myResults/results.json
