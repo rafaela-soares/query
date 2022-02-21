@@ -21,3 +21,4 @@ jobs:
           disable_secrets: false
           enable_comments: true
           verbose: true
+          output_path: ./
