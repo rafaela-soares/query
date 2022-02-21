@@ -11,15 +11,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
       - name: Run KICS Scan
-        uses: Checkmarx/kics-action@v1.3
+        uses: Checkmarx/kics-github-action@v1.3
         with:
           path: './'
-          # when provided with a directory on output_path
-          # it will generate the specified reports file named 'results.{extension}'
-          # in this example it will generate:
-          # - results-dir/results.json
           ignore_on_exit: results
-
-      - name: Show results
-        run: |
-          cat myResults/results.json
