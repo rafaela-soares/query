@@ -1,4 +1,4 @@
-name: Test KICS action
+name: Test KICS action2
 
 on:
   workflow_dispatch:
