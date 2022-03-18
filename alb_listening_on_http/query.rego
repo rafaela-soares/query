@@ -20,7 +20,6 @@ CxPolicy[result] {
 	}
 }
 
-
 CxPolicy[result] {
 	task := ansLib.tasks[id][t]
 	applicationLb := task[modules[m]]
