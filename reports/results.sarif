@@ -27,7 +27,7 @@
 								{
 									"target": {
 										"id": "CAT009",
-										"index": 12,
+										"index": 9,
 										"toolComponent": {
 											"name": "Categories",
 											"guid": "58cdcc6f-fe41-4724-bfb3-131a93df4c3f",
@@ -46,26 +46,6 @@
 					"ruleIndex": 0,
 					"kind": "fail",
 					"message": {
-						"text": "'aws_elb_application_lb' Protocol it's not 'HTTP'"
-					},
-					"locations": [
-						{
-							"physicalLocation": {
-								"artifactLocation": {
-									"uri": "query/alb_listening_on_http/test/positive.yaml"
-								},
-								"region": {
-									"startLine": 11
-								}
-							}
-						}
-					]
-				},
-				{
-					"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
-					"ruleIndex": 0,
-					"kind": "fail",
-					"message": {
 						"text": "'aws_elb_application_lb' Protocol is missing"
 					},
 					"locations": [
@@ -76,6 +56,26 @@
 								},
 								"region": {
 									"startLine": 29
+								}
+							}
+						}
+					]
+				},
+				{
+					"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
+					"ruleIndex": 0,
+					"kind": "fail",
+					"message": {
+						"text": "'aws_elb_application_lb' Protocol it's not 'HTTP'"
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "query/alb_listening_on_http/test/positive.yaml"
+								},
+								"region": {
+									"startLine": 11
 								}
 							}
 						}
@@ -104,63 +104,13 @@
 							}
 						},
 						{
-							"id": "CAT004",
-							"name": "Best Practices",
+							"id": "CAT010",
+							"name": "Observability",
 							"shortDescription": {
-								"text": "Metadata management"
+								"text": "Logging and Monitoring"
 							},
 							"fullDescription": {
-								"text": "Metadata management"
-							}
-						},
-						{
-							"id": "CAT015",
-							"name": "Bill Of Materials",
-							"shortDescription": {
-								"text": "List of resources provisioned"
-							},
-							"fullDescription": {
-								"text": "List of resources provisioned"
-							}
-						},
-						{
-							"id": "CAT002",
-							"name": "Availability",
-							"shortDescription": {
-								"text": "Reliability and Scalability"
-							},
-							"fullDescription": {
-								"text": "Reliability and Scalability"
-							}
-						},
-						{
-							"id": "CAT007",
-							"name": "Insecure Configurations",
-							"shortDescription": {
-								"text": "Configurations which expose the application unnecessarily"
-							},
-							"fullDescription": {
-								"text": "Configurations which expose the application unnecessarily"
-							}
-						},
-						{
-							"id": "CAT013",
-							"name": "Supply-Chain",
-							"shortDescription": {
-								"text": "Dependency version management"
-							},
-							"fullDescription": {
-								"text": "Dependency version management"
-							}
-						},
-						{
-							"id": "CAT001",
-							"name": "Access Control",
-							"shortDescription": {
-								"text": "Service permission and identity management"
-							},
-							"fullDescription": {
-								"text": "Service permission and identity management"
+								"text": "Logging and Monitoring"
 							}
 						},
 						{
@@ -174,6 +124,16 @@
 							}
 						},
 						{
+							"id": "CAT004",
+							"name": "Best Practices",
+							"shortDescription": {
+								"text": "Metadata management"
+							},
+							"fullDescription": {
+								"text": "Metadata management"
+							}
+						},
+						{
 							"id": "CAT006",
 							"name": "Encryption",
 							"shortDescription": {
@@ -184,16 +144,6 @@
 							}
 						},
 						{
-							"id": "CAT008",
-							"name": "Insecure Defaults",
-							"shortDescription": {
-								"text": "Configurations that are insecure by default"
-							},
-							"fullDescription": {
-								"text": "Configurations that are insecure by default"
-							}
-						},
-						{
 							"id": "CAT011",
 							"name": "Resource Management",
 							"shortDescription": {
@@ -201,6 +151,26 @@
 							},
 							"fullDescription": {
 								"text": "Resource and privilege limit configuration"
+							}
+						},
+						{
+							"id": "CAT015",
+							"name": "Bill Of Materials",
+							"shortDescription": {
+								"text": "List of resources provisioned"
+							},
+							"fullDescription": {
+								"text": "List of resources provisioned"
+							}
+						},
+						{
+							"id": "CAT001",
+							"name": "Access Control",
+							"shortDescription": {
+								"text": "Service permission and identity management"
+							},
+							"fullDescription": {
+								"text": "Service permission and identity management"
 							}
 						},
 						{
@@ -224,16 +194,6 @@
 							}
 						},
 						{
-							"id": "CAT010",
-							"name": "Observability",
-							"shortDescription": {
-								"text": "Logging and Monitoring"
-							},
-							"fullDescription": {
-								"text": "Logging and Monitoring"
-							}
-						},
-						{
 							"id": "CAT012",
 							"name": "Secret Management",
 							"shortDescription": {
@@ -251,6 +211,46 @@
 							},
 							"fullDescription": {
 								"text": "Malformed document structure or inadequate semantics"
+							}
+						},
+						{
+							"id": "CAT002",
+							"name": "Availability",
+							"shortDescription": {
+								"text": "Reliability and Scalability"
+							},
+							"fullDescription": {
+								"text": "Reliability and Scalability"
+							}
+						},
+						{
+							"id": "CAT007",
+							"name": "Insecure Configurations",
+							"shortDescription": {
+								"text": "Configurations which expose the application unnecessarily"
+							},
+							"fullDescription": {
+								"text": "Configurations which expose the application unnecessarily"
+							}
+						},
+						{
+							"id": "CAT008",
+							"name": "Insecure Defaults",
+							"shortDescription": {
+								"text": "Configurations that are insecure by default"
+							},
+							"fullDescription": {
+								"text": "Configurations that are insecure by default"
+							}
+						},
+						{
+							"id": "CAT013",
+							"name": "Supply-Chain",
+							"shortDescription": {
+								"text": "Dependency version management"
+							},
+							"fullDescription": {
+								"text": "Dependency version management"
 							}
 						}
 					]

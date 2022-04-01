@@ -4,39 +4,7 @@
 		"Compliance": {
 			"Status": "FAILED"
 		},
-		"CreatedAt": "2022-04-01T14:44:02Z",
-		"Description": "AWS Application Load Balancer (alb) should not listen on HTTP",
-		"GeneratorId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
-		"Id": "AWS_REGION/AWS_ACCOUNT_ID/ad70b3786c9bc9cc17d9b413772c0930c22f7b7cc749bc9a7c27533a29de5287",
-		"ProductArn": "arn:aws:securityhub:AWS_REGION:AWS_ACCOUNT_ID:product/AWS_ACCOUNT_ID/default",
-		"Remediation": {
-			"Recommendation": {
-				"Text": "In line 11 of file query/alb_listening_on_http/test/positive.yaml, a result was found. 'aws_elb_application_lb' Protocol it's not 'HTTP', but 'aws_elb_application_lb' Protocol should be 'HTTP'"
-			}
-		},
-		"Resources": [
-			{
-				"Id": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
-				"Type": "Other"
-			}
-		],
-		"SchemaVersion": "2018-10-08",
-		"Severity": {
-			"Original": "HIGH",
-			"Label": "HIGH"
-		},
-		"Title": "ALB Listening on HTTP",
-		"Types": [
-			"Software and Configuration Checks/Vulnerabilities/KICS"
-		],
-		"UpdatedAt": "2022-04-01T14:44:02Z"
-	},
-	{
-		"AwsAccountId": "AWS_ACCOUNT_ID",
-		"Compliance": {
-			"Status": "FAILED"
-		},
-		"CreatedAt": "2022-04-01T14:44:02Z",
+		"CreatedAt": "2022-04-01T14:45:09Z",
 		"Description": "AWS Application Load Balancer (alb) should not listen on HTTP",
 		"GeneratorId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
 		"Id": "AWS_REGION/AWS_ACCOUNT_ID/2669fd966f36e8bac8901297b895cc894791f2ef9a036e3beab357fb20e95cff",
@@ -61,6 +29,38 @@
 		"Types": [
 			"Software and Configuration Checks/Vulnerabilities/KICS"
 		],
-		"UpdatedAt": "2022-04-01T14:44:02Z"
+		"UpdatedAt": "2022-04-01T14:45:09Z"
+	},
+	{
+		"AwsAccountId": "AWS_ACCOUNT_ID",
+		"Compliance": {
+			"Status": "FAILED"
+		},
+		"CreatedAt": "2022-04-01T14:45:09Z",
+		"Description": "AWS Application Load Balancer (alb) should not listen on HTTP",
+		"GeneratorId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
+		"Id": "AWS_REGION/AWS_ACCOUNT_ID/ad70b3786c9bc9cc17d9b413772c0930c22f7b7cc749bc9a7c27533a29de5287",
+		"ProductArn": "arn:aws:securityhub:AWS_REGION:AWS_ACCOUNT_ID:product/AWS_ACCOUNT_ID/default",
+		"Remediation": {
+			"Recommendation": {
+				"Text": "In line 11 of file query/alb_listening_on_http/test/positive.yaml, a result was found. 'aws_elb_application_lb' Protocol it's not 'HTTP', but 'aws_elb_application_lb' Protocol should be 'HTTP'"
+			}
+		},
+		"Resources": [
+			{
+				"Id": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
+				"Type": "Other"
+			}
+		],
+		"SchemaVersion": "2018-10-08",
+		"Severity": {
+			"Original": "HIGH",
+			"Label": "HIGH"
+		},
+		"Title": "ALB Listening on HTTP",
+		"Types": [
+			"Software and Configuration Checks/Vulnerabilities/KICS"
+		],
+		"UpdatedAt": "2022-04-01T14:45:09Z"
 	}
 ]
