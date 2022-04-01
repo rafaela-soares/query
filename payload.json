@@ -1,7 +1,7 @@
 {
 	"document": [
 		{
-			"id": "02959d37-56b2-4e45-8df7-df3635da131d",
+			"id": "4d2d8401-fafc-4eb9-a5df-7866e57847af",
 			"jobs": {
 				"test": {
 					"runs-on": "ubuntu-latest",
@@ -29,7 +29,7 @@
 			"file": "/codefresh/volume/query/.github/workflows/blank.yml"
 		},
 		{
-			"id": "b4978a5a-cc8f-4597-98de-f1d031c7c906",
+			"id": "019ebe15-6929-4528-9617-dfc323806f47",
 			"jobs": {
 				"build": {
 					"runs-on": "ubuntu-18.04",
@@ -58,7 +58,7 @@
 			"file": "/codefresh/volume/query/.github/workflows/main.yml"
 		},
 		{
-			"id": "982cc8b5-1e21-48c3-967e-ec585483adfa",
+			"id": "0e7a0646-6c72-4092-b871-ec87bdaa5865",
 			"jobs": {
 				"test": {
 					"runs-on": "ubuntu-latest",
@@ -87,7 +87,7 @@
 			"file": "/codefresh/volume/query/.github/workflows/test.yml"
 		},
 		{
-			"id": "be98202f-6b4b-4b53-8e16-fb4a07fb9ab8",
+			"id": "e5cfb603-9f80-465c-ac78-f9ae01d3c946",
 			"playbooks": [
 				{
 					"community.aws.elb_application_lb": {
