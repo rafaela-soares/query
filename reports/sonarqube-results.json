@@ -1,0 +1,26 @@
+{
+	"issues": [
+		{
+			"engineId": "KICS v1.5.5",
+			"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
+			"severity": "CRITICAL",
+			"type": "VULNERABILITY",
+			"primaryLocation": {
+				"message": "AWS Application Load Balancer (alb) should not listen on HTTP",
+				"filePath": "query/alb_listening_on_http/test/positive.yaml",
+				"textRange": {
+					"startLine": 11
+				}
+			},
+			"secondaryLocations": [
+				{
+					"message": "AWS Application Load Balancer (alb) should not listen on HTTP",
+					"filePath": "query/alb_listening_on_http/test/positive.yaml",
+					"textRange": {
+						"startLine": 29
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:36a14216-3be3-4af6-9a77-ba8f4a59d10b" xmlns:v="http://cyclonedx.org/schema/ext/vulnerability/1.0" version="1">
+	<metadata>
+		<timestamp>2022-04-01T14:44:02Z</timestamp>
+		<tools>
+			<tool>
+				<vendor>Checkmarx</vendor>
+				<name>KICS</name>
+				<version>v1.5.5</version>
+			</tool>
+		</tools>
+	</metadata>
+	<components>
+		<component type="file" bom-ref="pkg:generic/query/alb_listening_on_http/test/positive.yaml@0.0.0-fbb196c41f95">
+			<name>query/alb_listening_on_http/test/positive.yaml</name>
+			<version>0.0.0-fbb196c41f95</version>
+			<hashes>
+				<hash alg="SHA-256">fbb196c41f95de84a9da260b4458715ed74ef1cc5a23bbb4f025a96d47b6fc6e</hash>
+			</hashes>
+			<purl>pkg:generic/query/alb_listening_on_http/test/positive.yaml@0.0.0-fbb196c41f95</purl>
+			<v:vulnerabilities>
+				<v:vulnerability ref="pkg:generic/query/alb_listening_on_http/test/positive.yaml@0.0.0-fbb196c41f95f81d63d2-c5d7-43a4-a5b5-66717a41c895">
+					<v:id>f81d63d2-c5d7-43a4-a5b5-66717a41c895</v:id>
+					<v:source>
+						<name>KICS</name>
+						<url>https://kics.io/</url>
+					</v:source>
+					<v:ratings>
+						<v:rating>
+							<v:severity>High</v:severity>
+							<v:method>Other</v:method>
+						</v:rating>
+					</v:ratings>
+					<v:description>[Ansible].[ALB Listening on HTTP]: AWS Application Load Balancer (alb) should not listen on HTTP</v:description>
+					<v:recommendations>
+						<v:recommendation>
+							<Recommendation>In line 11, a result was found. &#39;&#39;aws_elb_application_lb&#39; Protocol it&#39;s not &#39;HTTP&#39;&#39;, but &#39;&#39;aws_elb_application_lb&#39; Protocol should be &#39;HTTP&#39;&#39;</Recommendation>
+						</v:recommendation>
+					</v:recommendations>
+				</v:vulnerability>
+				<v:vulnerability ref="pkg:generic/query/alb_listening_on_http/test/positive.yaml@0.0.0-fbb196c41f95f81d63d2-c5d7-43a4-a5b5-66717a41c895">
+					<v:id>f81d63d2-c5d7-43a4-a5b5-66717a41c895</v:id>
+					<v:source>
+						<name>KICS</name>
+						<url>https://kics.io/</url>
+					</v:source>
+					<v:ratings>
+						<v:rating>
+							<v:severity>High</v:severity>
+							<v:method>Other</v:method>
+						</v:rating>
+					</v:ratings>
+					<v:description>[Ansible].[ALB Listening on HTTP]: AWS Application Load Balancer (alb) should not listen on HTTP</v:description>
+					<v:recommendations>
+						<v:recommendation>
+							<Recommendation>In line 29, a result was found. &#39;&#39;aws_elb_application_lb&#39; Protocol is missing&#39;, but &#39;&#39;aws_elb_application_lb&#39; Protocol should be &#39;HTTP&#39;&#39;</Recommendation>
+						</v:recommendation>
+					</v:recommendations>
+				</v:vulnerability>
+			</v:vulnerabilities>
+		</component>
+	</components>
+</bom>
