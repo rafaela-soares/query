@@ -27,7 +27,7 @@
 								{
 									"target": {
 										"id": "CAT009",
-										"index": 9,
+										"index": 10,
 										"toolComponent": {
 											"name": "Categories",
 											"guid": "58cdcc6f-fe41-4724-bfb3-131a93df4c3f",
@@ -46,26 +46,6 @@
 					"ruleIndex": 0,
 					"kind": "fail",
 					"message": {
-						"text": "'aws_elb_application_lb' Protocol is missing"
-					},
-					"locations": [
-						{
-							"physicalLocation": {
-								"artifactLocation": {
-									"uri": "query/alb_listening_on_http/test/positive.yaml"
-								},
-								"region": {
-									"startLine": 29
-								}
-							}
-						}
-					]
-				},
-				{
-					"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
-					"ruleIndex": 0,
-					"kind": "fail",
-					"message": {
 						"text": "'aws_elb_application_lb' Protocol it's not 'HTTP'"
 					},
 					"locations": [
@@ -76,6 +56,26 @@
 								},
 								"region": {
 									"startLine": 11
+								}
+							}
+						}
+					]
+				},
+				{
+					"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
+					"ruleIndex": 0,
+					"kind": "fail",
+					"message": {
+						"text": "'aws_elb_application_lb' Protocol is missing"
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "query/alb_listening_on_http/test/positive.yaml"
+								},
+								"region": {
+									"startLine": 29
 								}
 							}
 						}
@@ -101,16 +101,6 @@
 							},
 							"fullDescription": {
 								"text": "Category is not defined"
-							}
-						},
-						{
-							"id": "CAT010",
-							"name": "Observability",
-							"shortDescription": {
-								"text": "Logging and Monitoring"
-							},
-							"fullDescription": {
-								"text": "Logging and Monitoring"
 							}
 						},
 						{
@@ -144,53 +134,13 @@
 							}
 						},
 						{
-							"id": "CAT011",
-							"name": "Resource Management",
+							"id": "CAT008",
+							"name": "Insecure Defaults",
 							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
+								"text": "Configurations that are insecure by default"
 							},
 							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
-							}
-						},
-						{
-							"id": "CAT015",
-							"name": "Bill Of Materials",
-							"shortDescription": {
-								"text": "List of resources provisioned"
-							},
-							"fullDescription": {
-								"text": "List of resources provisioned"
-							}
-						},
-						{
-							"id": "CAT001",
-							"name": "Access Control",
-							"shortDescription": {
-								"text": "Service permission and identity management"
-							},
-							"fullDescription": {
-								"text": "Service permission and identity management"
-							}
-						},
-						{
-							"id": "CAT005",
-							"name": "Build Process",
-							"shortDescription": {
-								"text": "Insecure configurations when building/deploying"
-							},
-							"fullDescription": {
-								"text": "Insecure configurations when building/deploying"
-							}
-						},
-						{
-							"id": "CAT009",
-							"name": "Networking and Firewall",
-							"shortDescription": {
-								"text": "Network port exposure and firewall configuration"
-							},
-							"fullDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Configurations that are insecure by default"
 							}
 						},
 						{
@@ -204,16 +154,6 @@
 							}
 						},
 						{
-							"id": "CAT014",
-							"name": "Structure and Semantics",
-							"shortDescription": {
-								"text": "Malformed document structure or inadequate semantics"
-							},
-							"fullDescription": {
-								"text": "Malformed document structure or inadequate semantics"
-							}
-						},
-						{
 							"id": "CAT002",
 							"name": "Availability",
 							"shortDescription": {
@@ -221,6 +161,66 @@
 							},
 							"fullDescription": {
 								"text": "Reliability and Scalability"
+							}
+						},
+						{
+							"id": "CAT005",
+							"name": "Build Process",
+							"shortDescription": {
+								"text": "Insecure configurations when building/deploying"
+							},
+							"fullDescription": {
+								"text": "Insecure configurations when building/deploying"
+							}
+						},
+						{
+							"id": "CAT010",
+							"name": "Observability",
+							"shortDescription": {
+								"text": "Logging and Monitoring"
+							},
+							"fullDescription": {
+								"text": "Logging and Monitoring"
+							}
+						},
+						{
+							"id": "CAT001",
+							"name": "Access Control",
+							"shortDescription": {
+								"text": "Service permission and identity management"
+							},
+							"fullDescription": {
+								"text": "Service permission and identity management"
+							}
+						},
+						{
+							"id": "CAT009",
+							"name": "Networking and Firewall",
+							"shortDescription": {
+								"text": "Network port exposure and firewall configuration"
+							},
+							"fullDescription": {
+								"text": "Network port exposure and firewall configuration"
+							}
+						},
+						{
+							"id": "CAT013",
+							"name": "Supply-Chain",
+							"shortDescription": {
+								"text": "Dependency version management"
+							},
+							"fullDescription": {
+								"text": "Dependency version management"
+							}
+						},
+						{
+							"id": "CAT014",
+							"name": "Structure and Semantics",
+							"shortDescription": {
+								"text": "Malformed document structure or inadequate semantics"
+							},
+							"fullDescription": {
+								"text": "Malformed document structure or inadequate semantics"
 							}
 						},
 						{
@@ -234,23 +234,23 @@
 							}
 						},
 						{
-							"id": "CAT008",
-							"name": "Insecure Defaults",
+							"id": "CAT015",
+							"name": "Bill Of Materials",
 							"shortDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "List of resources provisioned"
 							},
 							"fullDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "List of resources provisioned"
 							}
 						},
 						{
-							"id": "CAT013",
-							"name": "Supply-Chain",
+							"id": "CAT011",
+							"name": "Resource Management",
 							"shortDescription": {
-								"text": "Dependency version management"
+								"text": "Resource and privilege limit configuration"
 							},
 							"fullDescription": {
-								"text": "Dependency version management"
+								"text": "Resource and privilege limit configuration"
 							}
 						}
 					]
