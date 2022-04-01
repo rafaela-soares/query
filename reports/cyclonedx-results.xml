@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:1173919f-a223-491f-8bcf-42fb8899162c" xmlns:v="http://cyclonedx.org/schema/ext/vulnerability/1.0" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:574bd4d0-5980-478c-bff6-4b9163045ee5" xmlns:v="http://cyclonedx.org/schema/ext/vulnerability/1.0" version="1">
 	<metadata>
-		<timestamp>2022-04-01T14:52:47Z</timestamp>
+		<timestamp>2022-04-01T14:53:52Z</timestamp>
 		<tools>
 			<tool>
 				<vendor>Checkmarx</vendor>
@@ -34,7 +34,7 @@
 					<v:description>[Ansible].[ALB Listening on HTTP]: AWS Application Load Balancer (alb) should not listen on HTTP</v:description>
 					<v:recommendations>
 						<v:recommendation>
-							<Recommendation>In line 29, a result was found. &#39;&#39;aws_elb_application_lb&#39; Protocol is missing&#39;, but &#39;&#39;aws_elb_application_lb&#39; Protocol should be &#39;HTTP&#39;&#39;</Recommendation>
+							<Recommendation>In line 11, a result was found. &#39;&#39;aws_elb_application_lb&#39; Protocol it&#39;s not &#39;HTTP&#39;&#39;, but &#39;&#39;aws_elb_application_lb&#39; Protocol should be &#39;HTTP&#39;&#39;</Recommendation>
 						</v:recommendation>
 					</v:recommendations>
 				</v:vulnerability>
@@ -53,7 +53,7 @@
 					<v:description>[Ansible].[ALB Listening on HTTP]: AWS Application Load Balancer (alb) should not listen on HTTP</v:description>
 					<v:recommendations>
 						<v:recommendation>
-							<Recommendation>In line 11, a result was found. &#39;&#39;aws_elb_application_lb&#39; Protocol it&#39;s not &#39;HTTP&#39;&#39;, but &#39;&#39;aws_elb_application_lb&#39; Protocol should be &#39;HTTP&#39;&#39;</Recommendation>
+							<Recommendation>In line 29, a result was found. &#39;&#39;aws_elb_application_lb&#39; Protocol is missing&#39;, but &#39;&#39;aws_elb_application_lb&#39; Protocol should be &#39;HTTP&#39;&#39;</Recommendation>
 						</v:recommendation>
 					</v:recommendations>
 				</v:vulnerability>
