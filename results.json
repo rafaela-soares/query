@@ -1,0 +1,63 @@
+{
+	"kics_version": "v1.5.5",
+	"files_scanned": 4,
+	"lines_scanned": 93,
+	"files_parsed": 4,
+	"lines_parsed": 93,
+	"files_failed_to_scan": 0,
+	"queries_total": 1,
+	"queries_failed_to_execute": 0,
+	"queries_failed_to_compute_similarity_id": 0,
+	"scan_id": "console",
+	"severity_counters": {
+		"HIGH": 2,
+		"INFO": 0,
+		"LOW": 0,
+		"MEDIUM": 0,
+		"TRACE": 0
+	},
+	"total_counter": 2,
+	"total_bom_resources": 0,
+	"start": "2022-04-01T14:32:21.59362734Z",
+	"end": "2022-04-01T14:32:22.611189594Z",
+	"paths": [
+		"./query"
+	],
+	"queries": [
+		{
+			"query_name": "ALB Listening on HTTP",
+			"query_id": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
+			"query_url": "https://docs.ansible.com/ansible/latest/collections/community/aws/elb_application_lb_module.html",
+			"severity": "HIGH",
+			"platform": "Ansible",
+			"cloud_provider": "AWS",
+			"category": "Networking and Firewall",
+			"description": "AWS Application Load Balancer (alb) should not listen on HTTP",
+			"description_id": "3a7576e5",
+			"files": [
+				{
+					"file_name": "query/alb_listening_on_http/test/positive.yaml",
+					"similarity_id": "ad70b3786c9bc9cc17d9b413772c0930c22f7b7cc749bc9a7c27533a29de5287",
+					"line": 11,
+					"issue_type": "IncorrectValue",
+					"search_key": "name={{my_elb_application}}.{{community.aws.elb_application_lb}}.listeners.Protocol=HTTP",
+					"search_line": 0,
+					"search_value": "",
+					"expected_value": "'aws_elb_application_lb' Protocol should be 'HTTP'",
+					"actual_value": "'aws_elb_application_lb' Protocol it's not 'HTTP'"
+				},
+				{
+					"file_name": "query/alb_listening_on_http/test/positive.yaml",
+					"similarity_id": "2669fd966f36e8bac8901297b895cc894791f2ef9a036e3beab357fb20e95cff",
+					"line": 29,
+					"issue_type": "MissingAttribute",
+					"search_key": "name={{my_elb_application2}}.{{community.aws.elb_application_lb}}.listeners",
+					"search_line": 0,
+					"search_value": "",
+					"expected_value": "'aws_elb_application_lb' Protocol should be 'HTTP'",
+					"actual_value": "'aws_elb_application_lb' Protocol is missing"
+				}
+			]
+		}
+	]
+}
