@@ -9,7 +9,7 @@
 				"message": "AWS Application Load Balancer (alb) should not listen on HTTP",
 				"filePath": "query/alb_listening_on_http/test/positive.yaml",
 				"textRange": {
-					"startLine": 11
+					"startLine": 29
 				}
 			},
 			"secondaryLocations": [
@@ -17,7 +17,7 @@
 					"message": "AWS Application Load Balancer (alb) should not listen on HTTP",
 					"filePath": "query/alb_listening_on_http/test/positive.yaml",
 					"textRange": {
-						"startLine": 29
+						"startLine": 11
 					}
 				}
 			]

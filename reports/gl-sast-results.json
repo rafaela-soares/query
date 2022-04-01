@@ -2,8 +2,8 @@
 	"schema": "https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/raw/v14.1.0/dist/sast-report-format.json",
 	"version": "14.0.1",
 	"scan": {
-		"start_time": "2022-04-01T14:51:20",
-		"end_time": "2022-04-01T14:51:21",
+		"start_time": "2022-04-01T14:52:46",
+		"end_time": "2022-04-01T14:52:47",
 		"status": "success",
 		"type": "sast",
 		"scanner": {
@@ -17,36 +17,6 @@
 		}
 	},
 	"vulnerabilities": [
-		{
-			"id": "ad70b3786c9bc9cc17d9b413772c0930c22f7b7cc749bc9a7c27533a29de5287",
-			"category": "sast",
-			"severity": "High",
-			"cve": "ad70b3786c9bc9cc17d9b413772c0930c22f7b7cc749bc9a7c27533a29de5287",
-			"scanner": {
-				"id": "keeping_infrastructure_as_code_secure",
-				"name": "Keeping Infrastructure as Code Secure"
-			},
-			"name": "ALB Listening on HTTP",
-			"message": "AWS Application Load Balancer (alb) should not listen on HTTP",
-			"links": [
-				{
-					"url": "https://docs.ansible.com/ansible/latest/collections/community/aws/elb_application_lb_module.html"
-				}
-			],
-			"location": {
-				"file": "query/alb_listening_on_http/test/positive.yaml",
-				"start_line": 11,
-				"end_line": 11
-			},
-			"identifiers": [
-				{
-					"type": "kics",
-					"name": "Keeping Infrastructure as Code Secure",
-					"url": "https://docs.kics.io/latest/queries/ansible-queries",
-					"value": "f81d63d2-c5d7-43a4-a5b5-66717a41c895"
-				}
-			]
-		},
 		{
 			"id": "2669fd966f36e8bac8901297b895cc894791f2ef9a036e3beab357fb20e95cff",
 			"category": "sast",
@@ -67,6 +37,36 @@
 				"file": "query/alb_listening_on_http/test/positive.yaml",
 				"start_line": 29,
 				"end_line": 29
+			},
+			"identifiers": [
+				{
+					"type": "kics",
+					"name": "Keeping Infrastructure as Code Secure",
+					"url": "https://docs.kics.io/latest/queries/ansible-queries",
+					"value": "f81d63d2-c5d7-43a4-a5b5-66717a41c895"
+				}
+			]
+		},
+		{
+			"id": "ad70b3786c9bc9cc17d9b413772c0930c22f7b7cc749bc9a7c27533a29de5287",
+			"category": "sast",
+			"severity": "High",
+			"cve": "ad70b3786c9bc9cc17d9b413772c0930c22f7b7cc749bc9a7c27533a29de5287",
+			"scanner": {
+				"id": "keeping_infrastructure_as_code_secure",
+				"name": "Keeping Infrastructure as Code Secure"
+			},
+			"name": "ALB Listening on HTTP",
+			"message": "AWS Application Load Balancer (alb) should not listen on HTTP",
+			"links": [
+				{
+					"url": "https://docs.ansible.com/ansible/latest/collections/community/aws/elb_application_lb_module.html"
+				}
+			],
+			"location": {
+				"file": "query/alb_listening_on_http/test/positive.yaml",
+				"start_line": 11,
+				"end_line": 11
 			},
 			"identifiers": [
 				{

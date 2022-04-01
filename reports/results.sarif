@@ -46,26 +46,6 @@
 					"ruleIndex": 0,
 					"kind": "fail",
 					"message": {
-						"text": "'aws_elb_application_lb' Protocol it's not 'HTTP'"
-					},
-					"locations": [
-						{
-							"physicalLocation": {
-								"artifactLocation": {
-									"uri": "query/alb_listening_on_http/test/positive.yaml"
-								},
-								"region": {
-									"startLine": 11
-								}
-							}
-						}
-					]
-				},
-				{
-					"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
-					"ruleIndex": 0,
-					"kind": "fail",
-					"message": {
 						"text": "'aws_elb_application_lb' Protocol is missing"
 					},
 					"locations": [
@@ -76,6 +56,26 @@
 								},
 								"region": {
 									"startLine": 29
+								}
+							}
+						}
+					]
+				},
+				{
+					"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
+					"ruleIndex": 0,
+					"kind": "fail",
+					"message": {
+						"text": "'aws_elb_application_lb' Protocol it's not 'HTTP'"
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "query/alb_listening_on_http/test/positive.yaml"
+								},
+								"region": {
+									"startLine": 11
 								}
 							}
 						}
@@ -104,36 +104,6 @@
 							}
 						},
 						{
-							"id": "CAT011",
-							"name": "Resource Management",
-							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
-							},
-							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
-							}
-						},
-						{
-							"id": "CAT014",
-							"name": "Structure and Semantics",
-							"shortDescription": {
-								"text": "Malformed document structure or inadequate semantics"
-							},
-							"fullDescription": {
-								"text": "Malformed document structure or inadequate semantics"
-							}
-						},
-						{
-							"id": "CAT015",
-							"name": "Bill Of Materials",
-							"shortDescription": {
-								"text": "List of resources provisioned"
-							},
-							"fullDescription": {
-								"text": "List of resources provisioned"
-							}
-						},
-						{
 							"id": "CAT001",
 							"name": "Access Control",
 							"shortDescription": {
@@ -151,6 +121,36 @@
 							},
 							"fullDescription": {
 								"text": "Reliability and Scalability"
+							}
+						},
+						{
+							"id": "CAT005",
+							"name": "Build Process",
+							"shortDescription": {
+								"text": "Insecure configurations when building/deploying"
+							},
+							"fullDescription": {
+								"text": "Insecure configurations when building/deploying"
+							}
+						},
+						{
+							"id": "CAT004",
+							"name": "Best Practices",
+							"shortDescription": {
+								"text": "Metadata management"
+							},
+							"fullDescription": {
+								"text": "Metadata management"
+							}
+						},
+						{
+							"id": "CAT008",
+							"name": "Insecure Defaults",
+							"shortDescription": {
+								"text": "Configurations that are insecure by default"
+							},
+							"fullDescription": {
+								"text": "Configurations that are insecure by default"
 							}
 						},
 						{
@@ -174,53 +174,13 @@
 							}
 						},
 						{
-							"id": "CAT005",
-							"name": "Build Process",
+							"id": "CAT011",
+							"name": "Resource Management",
 							"shortDescription": {
-								"text": "Insecure configurations when building/deploying"
+								"text": "Resource and privilege limit configuration"
 							},
 							"fullDescription": {
-								"text": "Insecure configurations when building/deploying"
-							}
-						},
-						{
-							"id": "CAT006",
-							"name": "Encryption",
-							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
-							},
-							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
-							}
-						},
-						{
-							"id": "CAT008",
-							"name": "Insecure Defaults",
-							"shortDescription": {
-								"text": "Configurations that are insecure by default"
-							},
-							"fullDescription": {
-								"text": "Configurations that are insecure by default"
-							}
-						},
-						{
-							"id": "CAT012",
-							"name": "Secret Management",
-							"shortDescription": {
-								"text": "Secret and Key management"
-							},
-							"fullDescription": {
-								"text": "Secret and Key management"
-							}
-						},
-						{
-							"id": "CAT013",
-							"name": "Supply-Chain",
-							"shortDescription": {
-								"text": "Dependency version management"
-							},
-							"fullDescription": {
-								"text": "Dependency version management"
+								"text": "Resource and privilege limit configuration"
 							}
 						},
 						{
@@ -234,13 +194,33 @@
 							}
 						},
 						{
-							"id": "CAT004",
-							"name": "Best Practices",
+							"id": "CAT013",
+							"name": "Supply-Chain",
 							"shortDescription": {
-								"text": "Metadata management"
+								"text": "Dependency version management"
 							},
 							"fullDescription": {
-								"text": "Metadata management"
+								"text": "Dependency version management"
+							}
+						},
+						{
+							"id": "CAT015",
+							"name": "Bill Of Materials",
+							"shortDescription": {
+								"text": "List of resources provisioned"
+							},
+							"fullDescription": {
+								"text": "List of resources provisioned"
+							}
+						},
+						{
+							"id": "CAT006",
+							"name": "Encryption",
+							"shortDescription": {
+								"text": "Data Security and Encryption configuration"
+							},
+							"fullDescription": {
+								"text": "Data Security and Encryption configuration"
 							}
 						},
 						{
@@ -251,6 +231,26 @@
 							},
 							"fullDescription": {
 								"text": "Configurations which expose the application unnecessarily"
+							}
+						},
+						{
+							"id": "CAT012",
+							"name": "Secret Management",
+							"shortDescription": {
+								"text": "Secret and Key management"
+							},
+							"fullDescription": {
+								"text": "Secret and Key management"
+							}
+						},
+						{
+							"id": "CAT014",
+							"name": "Structure and Semantics",
+							"shortDescription": {
+								"text": "Malformed document structure or inadequate semantics"
+							},
+							"fullDescription": {
+								"text": "Malformed document structure or inadequate semantics"
 							}
 						}
 					]
