@@ -6,7 +6,7 @@
 				"workflow_dispatch": null
 			},
 			"file": "/codefresh/volume/query/.github/workflows/blank.yml",
-			"id": "9da7782b-d51d-4a1f-801d-ef62efe92901",
+			"id": "50bd7418-19c1-4720-9f4e-a3dc2be89ed2",
 			"jobs": {
 				"test": {
 					"runs-on": "ubuntu-latest",
@@ -29,7 +29,8 @@
 			"name": "Test KICS action"
 		},
 		{
-			"id": "6cdeab6e-108f-4e23-9bd1-aac9bc501f0a",
+			"file": "/codefresh/volume/query/.github/workflows/main.yml",
+			"id": "ee05c582-3607-4505-9aca-060e05d4c6a1",
 			"jobs": {
 				"build": {
 					"runs-on": "ubuntu-18.04",
@@ -54,17 +55,9 @@
 				}
 			},
 			"name": "run codefresh pipeline",
-			"on": "push",
-			"file": "/codefresh/volume/query/.github/workflows/main.yml"
+			"on": "push"
 		},
 		{
-			"name": "Test KICS action2",
-			"on": {
-				"pull_request": null,
-				"workflow_dispatch": null
-			},
-			"file": "/codefresh/volume/query/.github/workflows/test.yml",
-			"id": "86816727-522c-484b-8963-9433a37804ab",
 			"jobs": {
 				"test": {
 					"runs-on": "ubuntu-latest",
@@ -84,10 +77,18 @@
 						}
 					]
 				}
-			}
+			},
+			"name": "Test KICS action2",
+			"on": {
+				"pull_request": null,
+				"workflow_dispatch": null
+			},
+			"file": "/codefresh/volume/query/.github/workflows/test.yml",
+			"id": "56278a7d-0122-4379-8fef-092719cc84d2"
 		},
 		{
-			"id": "03815a63-b6b0-4375-8857-a5e88cf509ae",
+			"file": "/codefresh/volume/query/alb_listening_on_http/test/positive.yaml",
+			"id": "7f91817e-1b9d-4bdb-9270-36f60e2a3165",
 			"playbooks": [
 				{
 					"community.aws.elb_application_lb": {
@@ -152,8 +153,7 @@
 					},
 					"name": "my_elb_application2"
 				}
-			],
-			"file": "/codefresh/volume/query/alb_listening_on_http/test/positive.yaml"
+			]
 		}
 	]
 }
