@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:fd37bbbc-0a9b-48e0-9ec7-d7d865c3efbe" xmlns:v="http://cyclonedx.org/schema/ext/vulnerability/1.0" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:ab1af97e-0c2b-42e9-b7a2-b9b9cfb62120" xmlns:v="http://cyclonedx.org/schema/ext/vulnerability/1.0" version="1">
 	<metadata>
-		<timestamp>2022-04-04T10:45:14Z</timestamp>
+		<timestamp>2022-04-04T10:46:08Z</timestamp>
 		<tools>
 			<tool>
 				<vendor>Checkmarx</vendor>
