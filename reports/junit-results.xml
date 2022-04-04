@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="KICS v1.5.5" time="387.181098ms" failures="2">
+<testsuites name="KICS v1.5.5" time="440.97985ms" failures="2">
 	<testsuite name="Ansible" failures="2" tests="2">
 		<testcase name="ALB Listening on HTTP: query/alb_listening_on_http/test/positive.yaml file in line 11" classname="Ansible">
 			<failure type="AWS Application Load Balancer (alb) should not listen on HTTP" message="A problem was found on &#39;query/alb_listening_on_http/test/positive.yaml&#39; file in line 11, &#39;aws_elb_application_lb&#39; Protocol should be &#39;HTTP&#39;, but &#39;aws_elb_application_lb&#39; Protocol it&#39;s not &#39;HTTP&#39;."></failure>
