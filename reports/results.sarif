@@ -27,7 +27,7 @@
 								{
 									"target": {
 										"id": "CAT009",
-										"index": 12,
+										"index": 11,
 										"toolComponent": {
 											"name": "Categories",
 											"guid": "58cdcc6f-fe41-4724-bfb3-131a93df4c3f",
@@ -104,13 +104,33 @@
 							}
 						},
 						{
-							"id": "CAT001",
-							"name": "Access Control",
+							"id": "CAT002",
+							"name": "Availability",
 							"shortDescription": {
-								"text": "Service permission and identity management"
+								"text": "Reliability and Scalability"
 							},
 							"fullDescription": {
-								"text": "Service permission and identity management"
+								"text": "Reliability and Scalability"
+							}
+						},
+						{
+							"id": "CAT003",
+							"name": "Backup",
+							"shortDescription": {
+								"text": "Survivability and Recovery"
+							},
+							"fullDescription": {
+								"text": "Survivability and Recovery"
+							}
+						},
+						{
+							"id": "CAT004",
+							"name": "Best Practices",
+							"shortDescription": {
+								"text": "Metadata management"
+							},
+							"fullDescription": {
+								"text": "Metadata management"
 							}
 						},
 						{
@@ -121,6 +141,26 @@
 							},
 							"fullDescription": {
 								"text": "Data Security and Encryption configuration"
+							}
+						},
+						{
+							"id": "CAT008",
+							"name": "Insecure Defaults",
+							"shortDescription": {
+								"text": "Configurations that are insecure by default"
+							},
+							"fullDescription": {
+								"text": "Configurations that are insecure by default"
+							}
+						},
+						{
+							"id": "CAT010",
+							"name": "Observability",
+							"shortDescription": {
+								"text": "Logging and Monitoring"
+							},
+							"fullDescription": {
+								"text": "Logging and Monitoring"
 							}
 						},
 						{
@@ -141,56 +181,6 @@
 							},
 							"fullDescription": {
 								"text": "Secret and Key management"
-							}
-						},
-						{
-							"id": "CAT002",
-							"name": "Availability",
-							"shortDescription": {
-								"text": "Reliability and Scalability"
-							},
-							"fullDescription": {
-								"text": "Reliability and Scalability"
-							}
-						},
-						{
-							"id": "CAT004",
-							"name": "Best Practices",
-							"shortDescription": {
-								"text": "Metadata management"
-							},
-							"fullDescription": {
-								"text": "Metadata management"
-							}
-						},
-						{
-							"id": "CAT008",
-							"name": "Insecure Defaults",
-							"shortDescription": {
-								"text": "Configurations that are insecure by default"
-							},
-							"fullDescription": {
-								"text": "Configurations that are insecure by default"
-							}
-						},
-						{
-							"id": "CAT014",
-							"name": "Structure and Semantics",
-							"shortDescription": {
-								"text": "Malformed document structure or inadequate semantics"
-							},
-							"fullDescription": {
-								"text": "Malformed document structure or inadequate semantics"
-							}
-						},
-						{
-							"id": "CAT003",
-							"name": "Backup",
-							"shortDescription": {
-								"text": "Survivability and Recovery"
-							},
-							"fullDescription": {
-								"text": "Survivability and Recovery"
 							}
 						},
 						{
@@ -224,23 +214,13 @@
 							}
 						},
 						{
-							"id": "CAT015",
-							"name": "Bill Of Materials",
+							"id": "CAT001",
+							"name": "Access Control",
 							"shortDescription": {
-								"text": "List of resources provisioned"
+								"text": "Service permission and identity management"
 							},
 							"fullDescription": {
-								"text": "List of resources provisioned"
-							}
-						},
-						{
-							"id": "CAT010",
-							"name": "Observability",
-							"shortDescription": {
-								"text": "Logging and Monitoring"
-							},
-							"fullDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Service permission and identity management"
 							}
 						},
 						{
@@ -251,6 +231,26 @@
 							},
 							"fullDescription": {
 								"text": "Dependency version management"
+							}
+						},
+						{
+							"id": "CAT014",
+							"name": "Structure and Semantics",
+							"shortDescription": {
+								"text": "Malformed document structure or inadequate semantics"
+							},
+							"fullDescription": {
+								"text": "Malformed document structure or inadequate semantics"
+							}
+						},
+						{
+							"id": "CAT015",
+							"name": "Bill Of Materials",
+							"shortDescription": {
+								"text": "List of resources provisioned"
+							},
+							"fullDescription": {
+								"text": "List of resources provisioned"
 							}
 						}
 					]
