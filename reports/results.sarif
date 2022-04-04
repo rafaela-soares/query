@@ -27,7 +27,7 @@
 								{
 									"target": {
 										"id": "CAT009",
-										"index": 10,
+										"index": 7,
 										"toolComponent": {
 											"name": "Categories",
 											"guid": "58cdcc6f-fe41-4724-bfb3-131a93df4c3f",
@@ -114,43 +114,23 @@
 							}
 						},
 						{
-							"id": "CAT004",
-							"name": "Best Practices",
+							"id": "CAT001",
+							"name": "Access Control",
 							"shortDescription": {
-								"text": "Metadata management"
+								"text": "Service permission and identity management"
 							},
 							"fullDescription": {
-								"text": "Metadata management"
+								"text": "Service permission and identity management"
 							}
 						},
 						{
-							"id": "CAT008",
-							"name": "Insecure Defaults",
+							"id": "CAT002",
+							"name": "Availability",
 							"shortDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "Reliability and Scalability"
 							},
 							"fullDescription": {
-								"text": "Configurations that are insecure by default"
-							}
-						},
-						{
-							"id": "CAT010",
-							"name": "Observability",
-							"shortDescription": {
-								"text": "Logging and Monitoring"
-							},
-							"fullDescription": {
-								"text": "Logging and Monitoring"
-							}
-						},
-						{
-							"id": "CAT012",
-							"name": "Secret Management",
-							"shortDescription": {
-								"text": "Secret and Key management"
-							},
-							"fullDescription": {
-								"text": "Secret and Key management"
+								"text": "Reliability and Scalability"
 							}
 						},
 						{
@@ -164,13 +144,13 @@
 							}
 						},
 						{
-							"id": "CAT006",
-							"name": "Encryption",
+							"id": "CAT004",
+							"name": "Best Practices",
 							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Metadata management"
 							},
 							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Metadata management"
 							}
 						},
 						{
@@ -181,16 +161,6 @@
 							},
 							"fullDescription": {
 								"text": "Configurations which expose the application unnecessarily"
-							}
-						},
-						{
-							"id": "CAT005",
-							"name": "Build Process",
-							"shortDescription": {
-								"text": "Insecure configurations when building/deploying"
-							},
-							"fullDescription": {
-								"text": "Insecure configurations when building/deploying"
 							}
 						},
 						{
@@ -214,6 +184,36 @@
 							}
 						},
 						{
+							"id": "CAT006",
+							"name": "Encryption",
+							"shortDescription": {
+								"text": "Data Security and Encryption configuration"
+							},
+							"fullDescription": {
+								"text": "Data Security and Encryption configuration"
+							}
+						},
+						{
+							"id": "CAT008",
+							"name": "Insecure Defaults",
+							"shortDescription": {
+								"text": "Configurations that are insecure by default"
+							},
+							"fullDescription": {
+								"text": "Configurations that are insecure by default"
+							}
+						},
+						{
+							"id": "CAT012",
+							"name": "Secret Management",
+							"shortDescription": {
+								"text": "Secret and Key management"
+							},
+							"fullDescription": {
+								"text": "Secret and Key management"
+							}
+						},
+						{
 							"id": "CAT013",
 							"name": "Supply-Chain",
 							"shortDescription": {
@@ -224,23 +224,23 @@
 							}
 						},
 						{
-							"id": "CAT001",
-							"name": "Access Control",
+							"id": "CAT005",
+							"name": "Build Process",
 							"shortDescription": {
-								"text": "Service permission and identity management"
+								"text": "Insecure configurations when building/deploying"
 							},
 							"fullDescription": {
-								"text": "Service permission and identity management"
+								"text": "Insecure configurations when building/deploying"
 							}
 						},
 						{
-							"id": "CAT002",
-							"name": "Availability",
+							"id": "CAT010",
+							"name": "Observability",
 							"shortDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Logging and Monitoring"
 							},
 							"fullDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Logging and Monitoring"
 							}
 						},
 						{

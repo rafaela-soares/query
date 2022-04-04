@@ -2,8 +2,8 @@
 	"schema": "https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/raw/v14.1.0/dist/sast-report-format.json",
 	"version": "14.0.1",
 	"scan": {
-		"start_time": "2022-04-04T10:32:18",
-		"end_time": "2022-04-04T10:32:18",
+		"start_time": "2022-04-04T10:33:53",
+		"end_time": "2022-04-04T10:33:54",
 		"status": "success",
 		"type": "sast",
 		"scanner": {
