@@ -27,7 +27,7 @@
 								{
 									"target": {
 										"id": "CAT009",
-										"index": 15,
+										"index": 12,
 										"toolComponent": {
 											"name": "Categories",
 											"guid": "58cdcc6f-fe41-4724-bfb3-131a93df4c3f",
@@ -104,33 +104,23 @@
 							}
 						},
 						{
-							"id": "CAT011",
-							"name": "Resource Management",
+							"id": "CAT014",
+							"name": "Structure and Semantics",
 							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
+								"text": "Malformed document structure or inadequate semantics"
 							},
 							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
+								"text": "Malformed document structure or inadequate semantics"
 							}
 						},
 						{
-							"id": "CAT013",
-							"name": "Supply-Chain",
+							"id": "CAT006",
+							"name": "Encryption",
 							"shortDescription": {
-								"text": "Dependency version management"
+								"text": "Data Security and Encryption configuration"
 							},
 							"fullDescription": {
-								"text": "Dependency version management"
-							}
-						},
-						{
-							"id": "CAT002",
-							"name": "Availability",
-							"shortDescription": {
-								"text": "Reliability and Scalability"
-							},
-							"fullDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Data Security and Encryption configuration"
 							}
 						},
 						{
@@ -154,13 +144,13 @@
 							}
 						},
 						{
-							"id": "CAT010",
-							"name": "Observability",
+							"id": "CAT011",
+							"name": "Resource Management",
 							"shortDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Resource and privilege limit configuration"
 							},
 							"fullDescription": {
-								"text": "Logging and Monitoring"
+								"text": "Resource and privilege limit configuration"
 							}
 						},
 						{
@@ -174,36 +164,6 @@
 							}
 						},
 						{
-							"id": "CAT015",
-							"name": "Bill Of Materials",
-							"shortDescription": {
-								"text": "List of resources provisioned"
-							},
-							"fullDescription": {
-								"text": "List of resources provisioned"
-							}
-						},
-						{
-							"id": "CAT006",
-							"name": "Encryption",
-							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
-							},
-							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
-							}
-						},
-						{
-							"id": "CAT014",
-							"name": "Structure and Semantics",
-							"shortDescription": {
-								"text": "Malformed document structure or inadequate semantics"
-							},
-							"fullDescription": {
-								"text": "Malformed document structure or inadequate semantics"
-							}
-						},
-						{
 							"id": "CAT001",
 							"name": "Access Control",
 							"shortDescription": {
@@ -211,16 +171,6 @@
 							},
 							"fullDescription": {
 								"text": "Service permission and identity management"
-							}
-						},
-						{
-							"id": "CAT003",
-							"name": "Backup",
-							"shortDescription": {
-								"text": "Survivability and Recovery"
-							},
-							"fullDescription": {
-								"text": "Survivability and Recovery"
 							}
 						},
 						{
@@ -244,6 +194,26 @@
 							}
 						},
 						{
+							"id": "CAT013",
+							"name": "Supply-Chain",
+							"shortDescription": {
+								"text": "Dependency version management"
+							},
+							"fullDescription": {
+								"text": "Dependency version management"
+							}
+						},
+						{
+							"id": "CAT003",
+							"name": "Backup",
+							"shortDescription": {
+								"text": "Survivability and Recovery"
+							},
+							"fullDescription": {
+								"text": "Survivability and Recovery"
+							}
+						},
+						{
 							"id": "CAT009",
 							"name": "Networking and Firewall",
 							"shortDescription": {
@@ -251,6 +221,36 @@
 							},
 							"fullDescription": {
 								"text": "Network port exposure and firewall configuration"
+							}
+						},
+						{
+							"id": "CAT010",
+							"name": "Observability",
+							"shortDescription": {
+								"text": "Logging and Monitoring"
+							},
+							"fullDescription": {
+								"text": "Logging and Monitoring"
+							}
+						},
+						{
+							"id": "CAT015",
+							"name": "Bill Of Materials",
+							"shortDescription": {
+								"text": "List of resources provisioned"
+							},
+							"fullDescription": {
+								"text": "List of resources provisioned"
+							}
+						},
+						{
+							"id": "CAT002",
+							"name": "Availability",
+							"shortDescription": {
+								"text": "Reliability and Scalability"
+							},
+							"fullDescription": {
+								"text": "Reliability and Scalability"
 							}
 						}
 					]
