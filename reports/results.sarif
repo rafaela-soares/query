@@ -27,7 +27,7 @@
 								{
 									"target": {
 										"id": "CAT009",
-										"index": 15,
+										"index": 14,
 										"toolComponent": {
 											"name": "Categories",
 											"guid": "58cdcc6f-fe41-4724-bfb3-131a93df4c3f",
@@ -46,26 +46,6 @@
 					"ruleIndex": 0,
 					"kind": "fail",
 					"message": {
-						"text": "'aws_elb_application_lb' Protocol is missing"
-					},
-					"locations": [
-						{
-							"physicalLocation": {
-								"artifactLocation": {
-									"uri": "query/alb_listening_on_http/test/positive.yaml"
-								},
-								"region": {
-									"startLine": 29
-								}
-							}
-						}
-					]
-				},
-				{
-					"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
-					"ruleIndex": 0,
-					"kind": "fail",
-					"message": {
 						"text": "'aws_elb_application_lb' Protocol it's not 'HTTP'"
 					},
 					"locations": [
@@ -76,6 +56,26 @@
 								},
 								"region": {
 									"startLine": 11
+								}
+							}
+						}
+					]
+				},
+				{
+					"ruleId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
+					"ruleIndex": 0,
+					"kind": "fail",
+					"message": {
+						"text": "'aws_elb_application_lb' Protocol is missing"
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "query/alb_listening_on_http/test/positive.yaml"
+								},
+								"region": {
+									"startLine": 29
 								}
 							}
 						}
@@ -104,23 +104,33 @@
 							}
 						},
 						{
-							"id": "CAT013",
-							"name": "Supply-Chain",
+							"id": "CAT001",
+							"name": "Access Control",
 							"shortDescription": {
-								"text": "Dependency version management"
+								"text": "Service permission and identity management"
 							},
 							"fullDescription": {
-								"text": "Dependency version management"
+								"text": "Service permission and identity management"
 							}
 						},
 						{
-							"id": "CAT015",
-							"name": "Bill Of Materials",
+							"id": "CAT002",
+							"name": "Availability",
 							"shortDescription": {
-								"text": "List of resources provisioned"
+								"text": "Reliability and Scalability"
 							},
 							"fullDescription": {
-								"text": "List of resources provisioned"
+								"text": "Reliability and Scalability"
+							}
+						},
+						{
+							"id": "CAT005",
+							"name": "Build Process",
+							"shortDescription": {
+								"text": "Insecure configurations when building/deploying"
+							},
+							"fullDescription": {
+								"text": "Insecure configurations when building/deploying"
 							}
 						},
 						{
@@ -144,33 +154,13 @@
 							}
 						},
 						{
-							"id": "CAT002",
-							"name": "Availability",
+							"id": "CAT004",
+							"name": "Best Practices",
 							"shortDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Metadata management"
 							},
 							"fullDescription": {
-								"text": "Reliability and Scalability"
-							}
-						},
-						{
-							"id": "CAT003",
-							"name": "Backup",
-							"shortDescription": {
-								"text": "Survivability and Recovery"
-							},
-							"fullDescription": {
-								"text": "Survivability and Recovery"
-							}
-						},
-						{
-							"id": "CAT006",
-							"name": "Encryption",
-							"shortDescription": {
-								"text": "Data Security and Encryption configuration"
-							},
-							"fullDescription": {
-								"text": "Data Security and Encryption configuration"
+								"text": "Metadata management"
 							}
 						},
 						{
@@ -184,6 +174,16 @@
 							}
 						},
 						{
+							"id": "CAT008",
+							"name": "Insecure Defaults",
+							"shortDescription": {
+								"text": "Configurations that are insecure by default"
+							},
+							"fullDescription": {
+								"text": "Configurations that are insecure by default"
+							}
+						},
+						{
 							"id": "CAT010",
 							"name": "Observability",
 							"shortDescription": {
@@ -194,43 +194,13 @@
 							}
 						},
 						{
-							"id": "CAT001",
-							"name": "Access Control",
+							"id": "CAT006",
+							"name": "Encryption",
 							"shortDescription": {
-								"text": "Service permission and identity management"
+								"text": "Data Security and Encryption configuration"
 							},
 							"fullDescription": {
-								"text": "Service permission and identity management"
-							}
-						},
-						{
-							"id": "CAT004",
-							"name": "Best Practices",
-							"shortDescription": {
-								"text": "Metadata management"
-							},
-							"fullDescription": {
-								"text": "Metadata management"
-							}
-						},
-						{
-							"id": "CAT005",
-							"name": "Build Process",
-							"shortDescription": {
-								"text": "Insecure configurations when building/deploying"
-							},
-							"fullDescription": {
-								"text": "Insecure configurations when building/deploying"
-							}
-						},
-						{
-							"id": "CAT008",
-							"name": "Insecure Defaults",
-							"shortDescription": {
-								"text": "Configurations that are insecure by default"
-							},
-							"fullDescription": {
-								"text": "Configurations that are insecure by default"
+								"text": "Data Security and Encryption configuration"
 							}
 						},
 						{
@@ -244,6 +214,26 @@
 							}
 						},
 						{
+							"id": "CAT015",
+							"name": "Bill Of Materials",
+							"shortDescription": {
+								"text": "List of resources provisioned"
+							},
+							"fullDescription": {
+								"text": "List of resources provisioned"
+							}
+						},
+						{
+							"id": "CAT003",
+							"name": "Backup",
+							"shortDescription": {
+								"text": "Survivability and Recovery"
+							},
+							"fullDescription": {
+								"text": "Survivability and Recovery"
+							}
+						},
+						{
 							"id": "CAT009",
 							"name": "Networking and Firewall",
 							"shortDescription": {
@@ -251,6 +241,16 @@
 							},
 							"fullDescription": {
 								"text": "Network port exposure and firewall configuration"
+							}
+						},
+						{
+							"id": "CAT013",
+							"name": "Supply-Chain",
+							"shortDescription": {
+								"text": "Dependency version management"
+							},
+							"fullDescription": {
+								"text": "Dependency version management"
 							}
 						}
 					]
