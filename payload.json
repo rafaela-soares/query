@@ -1,7 +1,7 @@
 {
 	"document": [
 		{
-			"id": "69f94873-80e3-4924-bed7-954f853c8c4f",
+			"id": "3aed8301-f237-4a7d-8d90-891152effe4b",
 			"jobs": {
 				"test": {
 					"runs-on": "ubuntu-latest",
@@ -55,10 +55,10 @@
 			"name": "run codefresh pipeline",
 			"on": "push",
 			"file": "/codefresh/volume/query/.github/workflows/main.yml",
-			"id": "eb30245f-7154-451b-8b86-e9ef073d95b0"
+			"id": "86653b8d-58fb-4d08-b922-87a668505936"
 		},
 		{
-			"id": "64732b3a-dab9-494c-95d3-679f5fa22c67",
+			"id": "3adf6d2f-767f-40f9-ac4a-d39411b1cc67",
 			"jobs": {
 				"test": {
 					"runs-on": "ubuntu-latest",
@@ -87,7 +87,7 @@
 			"file": "/codefresh/volume/query/.github/workflows/test.yml"
 		},
 		{
-			"id": "bd0cb57f-0c56-4c7c-bd8d-b7377816da44",
+			"id": "d93a3828-35b0-4206-9d0d-672b49640852",
 			"playbooks": [
 				{
 					"community.aws.elb_application_lb": {
