@@ -27,7 +27,7 @@
 								{
 									"target": {
 										"id": "CAT009",
-										"index": 15,
+										"index": 11,
 										"toolComponent": {
 											"name": "Categories",
 											"guid": "58cdcc6f-fe41-4724-bfb3-131a93df4c3f",
@@ -104,13 +104,13 @@
 							}
 						},
 						{
-							"id": "CAT003",
-							"name": "Backup",
+							"id": "CAT004",
+							"name": "Best Practices",
 							"shortDescription": {
-								"text": "Survivability and Recovery"
+								"text": "Metadata management"
 							},
 							"fullDescription": {
-								"text": "Survivability and Recovery"
+								"text": "Metadata management"
 							}
 						},
 						{
@@ -124,6 +124,26 @@
 							}
 						},
 						{
+							"id": "CAT007",
+							"name": "Insecure Configurations",
+							"shortDescription": {
+								"text": "Configurations which expose the application unnecessarily"
+							},
+							"fullDescription": {
+								"text": "Configurations which expose the application unnecessarily"
+							}
+						},
+						{
+							"id": "CAT002",
+							"name": "Availability",
+							"shortDescription": {
+								"text": "Reliability and Scalability"
+							},
+							"fullDescription": {
+								"text": "Reliability and Scalability"
+							}
+						},
+						{
 							"id": "CAT005",
 							"name": "Build Process",
 							"shortDescription": {
@@ -134,13 +154,23 @@
 							}
 						},
 						{
-							"id": "CAT007",
-							"name": "Insecure Configurations",
+							"id": "CAT008",
+							"name": "Insecure Defaults",
 							"shortDescription": {
-								"text": "Configurations which expose the application unnecessarily"
+								"text": "Configurations that are insecure by default"
 							},
 							"fullDescription": {
-								"text": "Configurations which expose the application unnecessarily"
+								"text": "Configurations that are insecure by default"
+							}
+						},
+						{
+							"id": "CAT003",
+							"name": "Backup",
+							"shortDescription": {
+								"text": "Survivability and Recovery"
+							},
+							"fullDescription": {
+								"text": "Survivability and Recovery"
 							}
 						},
 						{
@@ -154,6 +184,16 @@
 							}
 						},
 						{
+							"id": "CAT011",
+							"name": "Resource Management",
+							"shortDescription": {
+								"text": "Resource and privilege limit configuration"
+							},
+							"fullDescription": {
+								"text": "Resource and privilege limit configuration"
+							}
+						},
+						{
 							"id": "CAT012",
 							"name": "Secret Management",
 							"shortDescription": {
@@ -161,6 +201,16 @@
 							},
 							"fullDescription": {
 								"text": "Secret and Key management"
+							}
+						},
+						{
+							"id": "CAT009",
+							"name": "Networking and Firewall",
+							"shortDescription": {
+								"text": "Network port exposure and firewall configuration"
+							},
+							"fullDescription": {
+								"text": "Network port exposure and firewall configuration"
 							}
 						},
 						{
@@ -184,26 +234,6 @@
 							}
 						},
 						{
-							"id": "CAT001",
-							"name": "Access Control",
-							"shortDescription": {
-								"text": "Service permission and identity management"
-							},
-							"fullDescription": {
-								"text": "Service permission and identity management"
-							}
-						},
-						{
-							"id": "CAT011",
-							"name": "Resource Management",
-							"shortDescription": {
-								"text": "Resource and privilege limit configuration"
-							},
-							"fullDescription": {
-								"text": "Resource and privilege limit configuration"
-							}
-						},
-						{
 							"id": "CAT015",
 							"name": "Bill Of Materials",
 							"shortDescription": {
@@ -214,43 +244,13 @@
 							}
 						},
 						{
-							"id": "CAT002",
-							"name": "Availability",
+							"id": "CAT001",
+							"name": "Access Control",
 							"shortDescription": {
-								"text": "Reliability and Scalability"
+								"text": "Service permission and identity management"
 							},
 							"fullDescription": {
-								"text": "Reliability and Scalability"
-							}
-						},
-						{
-							"id": "CAT004",
-							"name": "Best Practices",
-							"shortDescription": {
-								"text": "Metadata management"
-							},
-							"fullDescription": {
-								"text": "Metadata management"
-							}
-						},
-						{
-							"id": "CAT008",
-							"name": "Insecure Defaults",
-							"shortDescription": {
-								"text": "Configurations that are insecure by default"
-							},
-							"fullDescription": {
-								"text": "Configurations that are insecure by default"
-							}
-						},
-						{
-							"id": "CAT009",
-							"name": "Networking and Firewall",
-							"shortDescription": {
-								"text": "Network port exposure and firewall configuration"
-							},
-							"fullDescription": {
-								"text": "Network port exposure and firewall configuration"
+								"text": "Service permission and identity management"
 							}
 						}
 					]

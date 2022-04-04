@@ -4,7 +4,7 @@
 		"Compliance": {
 			"Status": "FAILED"
 		},
-		"CreatedAt": "2022-04-04T10:41:12Z",
+		"CreatedAt": "2022-04-04T10:42:30Z",
 		"Description": "AWS Application Load Balancer (alb) should not listen on HTTP",
 		"GeneratorId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
 		"Id": "AWS_REGION/AWS_ACCOUNT_ID/ad70b3786c9bc9cc17d9b413772c0930c22f7b7cc749bc9a7c27533a29de5287",
@@ -29,14 +29,14 @@
 		"Types": [
 			"Software and Configuration Checks/Vulnerabilities/KICS"
 		],
-		"UpdatedAt": "2022-04-04T10:41:12Z"
+		"UpdatedAt": "2022-04-04T10:42:30Z"
 	},
 	{
 		"AwsAccountId": "AWS_ACCOUNT_ID",
 		"Compliance": {
 			"Status": "FAILED"
 		},
-		"CreatedAt": "2022-04-04T10:41:12Z",
+		"CreatedAt": "2022-04-04T10:42:30Z",
 		"Description": "AWS Application Load Balancer (alb) should not listen on HTTP",
 		"GeneratorId": "f81d63d2-c5d7-43a4-a5b5-66717a41c895",
 		"Id": "AWS_REGION/AWS_ACCOUNT_ID/2669fd966f36e8bac8901297b895cc894791f2ef9a036e3beab357fb20e95cff",
@@ -61,6 +61,6 @@
 		"Types": [
 			"Software and Configuration Checks/Vulnerabilities/KICS"
 		],
-		"UpdatedAt": "2022-04-04T10:41:12Z"
+		"UpdatedAt": "2022-04-04T10:42:30Z"
 	}
 ]
