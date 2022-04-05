@@ -1,7 +1,7 @@
 {
 	"document": [
 		{
-			"id": "de218932-b1e2-4a80-898b-7f87c020ec24",
+			"id": "f8bc733b-5247-4fee-92bd-fd053b9bb313",
 			"jobs": {
 				"test": {
 					"runs-on": "ubuntu-latest",
@@ -29,10 +29,7 @@
 			"file": "/codefresh/volume/query/.github/workflows/blank.yml"
 		},
 		{
-			"name": "run codefresh pipeline",
-			"on": "push",
-			"file": "/codefresh/volume/query/.github/workflows/main.yml",
-			"id": "7e907c63-1b4b-4b06-8908-946ab3c50cdb",
+			"id": "4c55c6cc-2766-4dbf-a676-087cde3d739a",
 			"jobs": {
 				"build": {
 					"runs-on": "ubuntu-18.04",
@@ -55,9 +52,13 @@
 						}
 					]
 				}
-			}
+			},
+			"name": "run codefresh pipeline",
+			"on": "push",
+			"file": "/codefresh/volume/query/.github/workflows/main.yml"
 		},
 		{
+			"id": "a017efd1-d8fd-48ec-9980-91aa4805fa05",
 			"jobs": {
 				"test": {
 					"runs-on": "ubuntu-latest",
@@ -83,11 +84,10 @@
 				"pull_request": null,
 				"workflow_dispatch": null
 			},
-			"file": "/codefresh/volume/query/.github/workflows/test.yml",
-			"id": "863d71b2-b898-4104-a419-781f896db787"
+			"file": "/codefresh/volume/query/.github/workflows/test.yml"
 		},
 		{
-			"id": "6a1fda04-e062-49c6-844f-c4b96a6f74a8",
+			"id": "7dcb64ac-0a99-4b89-a980-d705fa3a6643",
 			"playbooks": [
 				{
 					"community.aws.elb_application_lb": {
